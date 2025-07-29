@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.env.bak/
+.venv/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Python cache
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Model artifacts and temp files
+outputs/*.pkl
+*.h5
+*.joblib
+
+# Streamlit static cache
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Pip file environments
+Pipfile.lock
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+.cache
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter runtime
+~$*
+*.bak
+
+# Logs
+*.log
+logs/
